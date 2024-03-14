@@ -1,9 +1,5 @@
 import pandas as pd
-import numpy as np
-from scipy import stats as st
-import math as mt
-import seaborn as sns
-from matplotlib import pyplot as plt
+
 
 # se guardan los datasets
 dataset_us = pd.read_csv('files/datasets/input/telecom_dataset_us.csv')
