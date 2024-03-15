@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from scipy import stats as st
-import math as mt
 
 # se cargan los datos
 telecom = pd.read_csv('files/datasets/output/dataset_and_clients_us.csv')
