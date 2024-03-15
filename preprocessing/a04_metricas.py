@@ -1,9 +1,4 @@
 import pandas as pd
-import numpy as np
-from scipy import stats as st
-import math as mt
-import seaborn as sns
-from matplotlib import pyplot as plt
 import plotly.express as px
 
 
