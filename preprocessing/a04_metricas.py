@@ -34,8 +34,6 @@ missed_calls_op.head()
 op_churn_rate = total_calls_op.merge(missed_calls_op, on= 'operator_id', how= 'outer')
 op_churn_rate.head()
 
-# ! 
-# TODO: terminar de correr el script restante
 # se calculan valores ausente
 op_churn_rate.isna().sum()
 
@@ -128,8 +126,6 @@ op_metrics_est
 
 # se guardan los datos 
 op_metrics_est.to_csv("files/datasets/output/a04_descriptive_statistics_metrics.csv", index=False)
-
-# TODO:
 
 # se filtra el DataFrame 'op_metrics'
 ineffect_op_id_missed_call = op_metrics[op_metrics['pct_missed_calls'] > 5]['operator_id']
