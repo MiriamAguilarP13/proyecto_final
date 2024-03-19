@@ -19,10 +19,10 @@ from plotly import graph_objects as go
 
 
  # se cargan los datasets
-project_marketing_events_us = pd.read_csv('files/datasets/ab_project_marketing_events_us.csv', parse_dates= ['start_dt', 'finish_dt'])
-new_users_upd_us = pd.read_csv('files/datasets/final_ab_new_users_upd_us.csv', parse_dates= ['first_date'])
-events_upd_us = pd.read_csv('files/datasets/final_ab_events_upd_us.csv', parse_dates= ['event_dt'])
-participants_upd_us = pd.read_csv('files/datasets/final_ab_participants_upd_us.csv')
+project_marketing_events_us = pd.read_csv('files/datasets/test_AB/ab_project_marketing_events_us.csv', parse_dates= ['start_dt', 'finish_dt'])
+new_users_upd_us = pd.read_csv('files/datasets/test_AB/final_ab_new_users_upd_us.csv', parse_dates= ['first_date'])
+events_upd_us = pd.read_csv('files/datasets/test_AB/final_ab_events_upd_us.csv', parse_dates= ['event_dt'])
+participants_upd_us = pd.read_csv('files/datasets/test_AB/final_ab_participants_upd_us.csv')
 
 project_marketing_events_us.head()
 
