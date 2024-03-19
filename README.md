@@ -1,5 +1,13 @@
 # Proyecto Final  
 
+El proyecto final consiste en el análisis de un dataset de una empresa de telecomunicaciones, con la finalidad de identificar a los operadores menos eficientes.  
+
+Un proyecto de pruebas A/B, consiste en una tarea analítica de una tienda en línea internacional. Los predecesores no consiguieron completarla: lanzaron una prueba A/B y luego abandonaron (para iniciar una granja de sandías en Brasil). Solo dejaron las especificaciones técnicas y los resultados de las pruebas.
+
+Y el proyecto de SQL, consiste en conectarse a una base de datos de uno de los servicios que compiten en este mercado. Contiene datos sobre libros, editoriales, autores y calificaciones de clientes y reseñas de libros.  
+
+A continuación se proporciona un poco más de información con más detalles de cada proyecto.  
+
 ## **Telecomunicaciones**  
 
 El servicio de telefonía virtual CallMeMaybe está desarrollando una nueva función que brindará a los supervisores y las supervisores información sobre los operadores menos eficaces. Se considera que un operador es ineficaz si tiene una gran cantidad de llamadas entrantes perdidas (internas y externas) y un tiempo de espera prolongado para las llamadas entrantes. Además, si se supone que un operador debe realizar llamadas salientes, un número reducido de ellas también será un signo de ineficacia.  
